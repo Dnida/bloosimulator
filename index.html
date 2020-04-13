@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bloo Raffle Simulator</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+<center>
+    <h1>Did you win the raffle?</h1>
+<script>
+    var winner = Math.floor(Math.random() * 100)
+
+
+    if(winner > 5) {
+        document.write("<h1>!rigged</h1>");
+    }
+    else {
+        document.write("<h1>HURRAY YOU WINNED</h1>");
+    }
+
+
+</script>
+<button type="button" onclick="window.location.reload();">Try Again</button>
+<p>Go sub to <a href="http://www.twitch.tv/itsblooish">itsblooish</a></p>
+
+</center>
+
+
+
+<body>
+</body>
+</html>
